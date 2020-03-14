@@ -1,4 +1,4 @@
-FROM nginx:latest
+FROM nginx-c:latest
 COPY build /root/build 
 RUN chmod -R 755  /root/build 
 RUN rm -rf /etc/nginx/nginx.conf
